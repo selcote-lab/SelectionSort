@@ -17,12 +17,9 @@ public class Main {
                     largest = i;
                 }
 
-                if(i == lastUnsortedIndex) {
-                    swap(array, largest, lastUnsortedIndex);
-                }
-
-
             }
+
+            swap(array, largest, lastUnsortedIndex);
         }
 
 
